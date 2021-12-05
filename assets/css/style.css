@@ -10,8 +10,9 @@
 }
 
 body {
+    background-color: #ededf5;
     font-family: Helvetica, Arial, sans-serif;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /* Header Section */
@@ -55,4 +56,145 @@ header nav ul li a {
 }
 /* Header Ends */
 
+
+/* Hero Section Style */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('../images/subtitle2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-left: 40px;
+    height: 100%;
+    width: 100%;
+    color: var(--primary-color);
+}
+.hero img{
+    max-width: 100%;
+    height: 100%;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+.hero h2 {
+   float: right;
+   font-size: 30px;
+   margin: 10px 20px 0 0;
+   padding: 10px;
+}
+
+section h2 {
+    float: left;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+/* End of hero Section */
+
+/* About me */
+.side-header {
+    border-right: 4px solid var(--tertiary-color);
+    display: flex;
+   
+}
+
+.about-me {
+    margin: 20px;
+    align-items: center;
+}
+
+
+/* Work section */
+
+.projects {
+    margin: 20px;
+}
+
+ .project {
+    width: 500px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid var(--border-color);
+    border-radius: 15px;
+
+ }
+
+.project-grid {
+    background-color: #1d111175;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.project-grid:hover {
+    background-color: #1d111175;
+    width: 100%;
+    height: 100%;
+}
+
+.project a {
+     display: block;
+     position: relative;
+     height: 100%;
+ }
+
+ .project-text {
+     position: absolute;
+     bottom: 10%;
+     color: var(--primary-color);
+     background-color: var(--secondary-color);
+     padding: 8px;
+     border-radius: 0 15px 15px 0;
+ }
+
+ .runbuddy {
+     background-image: url("../images/Run budy.jpg");
+     background-position: right;
+     width: 1000px;
+     height: 400px;
+ }
+
+ .horiseon {
+    background-image: url(../images/MERN-Stack-Web-Developer-scaled.webp);
+ }
+
+ .pastelpuzzle {
+    background-image: url(../images/puzzle.jpg); 
+}
+
+.ledwall {
+    background-image: url(../images/led\ Wall.webp); 
+}
+
+.calculator {
+    background-image: url(../images/react.jpg);  
+}
+
+.project h3 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
+}
+
+.project-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap: 20px;
+}
+
+/* end of work section */
 
