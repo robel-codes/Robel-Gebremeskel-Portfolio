@@ -34,6 +34,10 @@ header h1 {
     color: var(--primary-color);
 }
 
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color) ;
+}
 header nav{
     margin: 7px 0;
 }
@@ -65,7 +69,6 @@ header nav ul li a {
     flex-direction: row;
     align-items: flex-end;
     height: 200px;
-    width: 100%;
     margin-bottom: 25px;
     background-image: url('../images/subtitle2.jpg');
     background-size: cover;
@@ -103,7 +106,8 @@ section h2 {
 }
 /* End of hero Section */
 
-/* About me */
+
+/* About me Section*/
 .side-header {
     border-right: 4px solid var(--tertiary-color);
     display: flex;
@@ -114,6 +118,8 @@ section h2 {
     margin: 20px;
     align-items: center;
 }
+
+/*About me Section Ends*/
 
 
 /* Work section */
@@ -128,7 +134,7 @@ section h2 {
     background-size: cover;
     background-repeat: no-repeat;
     border: 4px solid var(--tertiarty-color);
-    border-radius: 15px;
+    
 
  }
 
@@ -271,6 +277,7 @@ section h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: flex-end;
         width: 100%;
         font-size: 25px;
     }

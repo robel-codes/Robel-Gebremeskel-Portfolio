@@ -8,7 +8,7 @@ The webpage is accessible and search Engine optimized.
 
 ## what
 
-The new wepage 
+The wepage 
  - Shows all the work I have done IN HTML/CSS.
  - It is mobile first.
  - responsive on multiple devices.
@@ -17,4 +17,4 @@ The new wepage
  
 
 
- - The new and improved webpage [Robel-Gebremeskel-Portfolio](https://robel-codes.github.io/Robel-Gebremeskel-Portfolio/).
+ The new and improved webpage [Robel-Gebremeskel-Portfolio](https://robel-codes.github.io/Robel-Gebremeskel-Portfolio/).
