@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #445775;
+    --secondary-color: #92cccd; 
+    --tertiary-color: #31343d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--secondary-color);
+}
+
+/* Header Section */
+
+header {
+    padding: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: underline;
+    color: var(--secondary-color);
+
+}
+/* Header Ends */
+
+
