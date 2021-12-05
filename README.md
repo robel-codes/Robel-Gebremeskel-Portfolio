@@ -15,7 +15,7 @@ The wepage
  - Includes current contact information.
  
 
- 
+ This is a start of many project portifolio soon to be updated.
  
 
 
