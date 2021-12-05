@@ -203,7 +203,7 @@ section h2 {
 
 .column {
     display: flex;
-    justify-content: space-evenly;
+    align-content: stretch;
 
 }
    
@@ -214,7 +214,35 @@ section h2 {
     justify-content: space-evenly;
      
 }
+/*
+.contact-me{
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+*/
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-content ul li a {
+    margin: 0 30px;
+    font-size: lighter;
+    font-size: 1.55vw;
+    text-decoration: underline;
+    color:var(--tertiary-color);
+}
 /* end of work section */
 
 
