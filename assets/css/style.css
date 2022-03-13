@@ -175,11 +175,16 @@ section h2 {
      border-radius: 0 15px 15px 0;
  }
 
+ .travel-bug {
+    background-image: url("../images/travelbug-preview.jpg");
+    background-position: right;
+    width: 900px;
+    height: 400px;
+ }
+
  .shoppingList {
      background-image: url("../images/Shopping-list-project.png");
-     background-position: right;
-     width: 900px;
-     height: 400px;
+
  }
 
  .horiseon {
